@@ -5,12 +5,39 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <script src="lib/jquery.js"></script>
     <script src="src/dancer.js"></script>
-    <script src="src/blinkyDancer.js"></script>
+    <!-- <script src="src/blinkyDancer.js"></script> -->
+    <!-- <script src="src/twerkDancer.js"></script> -->
+    <!-- <script src="src/badDancer.js"></script> -->
+    <!--<script src="src/napoleonDancer.js"></script> -->
+    <script src="src/carlton.js"></script>
+    <script src="src/batman.js"></script>
+    <script src="src/samus.js"></script>
+    <script src="lib/jquery-ui-1.11.0.custom/jquery-ui.js"></script>
+    <script src="src/init.js"></script>
   </head>
   <body>
     <div class="topbar">
-      <span class="title">object dance party</span>
-      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>    </div>
-    <script src="src/init.js"></script>
+      <span class="title">HR Dance Party</span>
+      <!-- <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBlinkyDancer">add a blinky dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeTwerkDancer">add a twerky dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBadDancer">add a bad dancer</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeNapoleon">add a Napoleon</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBat">add a dark knight</a>
+      <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeCarlton">add a smooth dancer</a>-->
+      <select class="selector">
+        <option value = "makeBat">Dark Knight</option>
+        <option value = "makeCarlton">Smooth Dancer</option>
+        <option value = "makeSamus">Bounty Hunter</option>
+      </select>
+      <button type="button" class="button">Select Dancer</button>
+      <a href="#" class="partnerUp" >Partner Up!</a>
+      <a href="#" class="lineUpButton" >Line Up!</a>
+      <audio controls>
+        <source src="http://dl.soundowl.com/1y3q.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+        </audio>
+          </div>
+
+    <div class="origin"></div>
   </body>
 </html>
